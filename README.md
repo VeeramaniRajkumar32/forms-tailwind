@@ -20,13 +20,13 @@ git clone "https://github.com/Noobsiecoder/forms-tailwind.git"
 # 💻 Screenshot
 
 - **Create Account**
-  ![Alt text](https://raw.githubusercontent.com/Noobsiecoder/forms-tailwind/main/src/image/create_account.png)
+  ![Alt text](https://raw.githubusercontent.com/Noobsiecoder/forms-tailwind/main/src/assets/image/create_account.png)
   <br>
 - **Sign In**
-  ![Alt text](https://raw.githubusercontent.com/Noobsiecoder/forms-tailwind/main/src/image/log_in.png)
+  ![Alt text](https://raw.githubusercontent.com/Noobsiecoder/forms-tailwind/main/src/assets/image/log_in.png)
   <br>
 - **Dashboard**
-  ![Alt text](https://raw.githubusercontent.com/Noobsiecoder/forms-tailwind/main/src/image/dashboard.png)
+  ![Alt text](https://raw.githubusercontent.com/Noobsiecoder/forms-tailwind/main/src/assets/image/dashboard.png)
   <br>
 
 # 📕 Resource
