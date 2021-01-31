@@ -1,0 +1,11 @@
+# build
+build
+
+# tailwind
+tailwind.css
+tailwind.config.js
+postcss.config.js
+
+# misc
+package.json
+node_modules

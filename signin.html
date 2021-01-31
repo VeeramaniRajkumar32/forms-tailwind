@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en" class="relative min-h-screen">
+
+<head>
+    <meta charset="UTF-8">
+    <!-- favicons -->
+    <link rel="shortcut icon" href="./src/icon/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="./src/icon/android-chrome-192x192.png" type="image/png">
+    <link rel="icon" href="./src/icon/android-chrome-512x512.png" type="image/png">
+    <link rel="icon" sizes="16x16" href="./src/icon/favicon-16x16.png" type="image/png">
+    <link rel="icon" sizes="32x32" href="./src/icon/favicon-32x32.png" type="image/png">
+    <link rel="apple-touch-icon" href="./src/icon/apple-touch-icon.png" type="image/png">
+    <!-- favicons -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- title -->
+    <title>SignIn - Using Flask</title>
+    <!-- manifest -->
+    <link rel="manifest" href="./src/public/site.webmanifest">
+    <!-- custom fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;600&family=Roboto:wght@400;500&display=swap"
+        rel="stylesheet">
+    <!-- stylesheet -->
+    <link rel="stylesheet" type="text/css" href="./src/styles/main.css">
+</head>
+
+<body class="bg-gradient-to-r from-red-500 to-red-300">
+    <div class="flex h-screen text-gray-900">
+        <div class="w-11/12 p-8 m-auto bg-white rounded-lg sm:w-96 bg-opacity-80 bg-clip-padding">
+            <div class="space-y-2">
+                <div>
+                    <h1 class="text-2xl font-medium text-center md:text-4xl font-roboto">Welcome Back!</h1>
+                </div>
+                <div>
+                    <div class="space-x-1 text-sm text-center md:text-base font-nunito">
+                        <span>
+                            New to SimpleForm?
+                        </span>
+                        <a class="font-semibold text-blue-500" href="signup.html">Sign Up</a>
+                    </div>
+                </div>
+            </div>
+            <div class="mt-10">
+                <form class="text-base font-nunito">
+                    <div class="space-y-4">
+                        <div class="relative flex items-center">
+                            <svg class="absolute w-5 h-5 ml-3 text-gray-400" xmlns="http://www.w3.org/2000/svg"
+                                fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
+                            </svg>
+                            <input
+                                class="w-full p-2 pl-10 text-gray-800 placeholder-gray-600 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-300"
+                                type="email" name="email" placeholder="Email" required>
+                        </div>
+                        <div class="relative flex items-center">
+                            <svg class="absolute w-5 h-5 ml-3 text-gray-400" xmlns="http://www.w3.org/2000/svg"
+                                fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M12 15v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2zm10-10V7a4 4 0 00-8 0v4h8z" />
+                            </svg>
+                            <input
+                                class="w-full p-2 pl-10 text-gray-800 placeholder-gray-600 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-300"
+                                type="password" name="password" placeholder="Password" required>
+                        </div>
+                        <div class="flex items-start space-x-2 md:items-center">
+                            <input class="focus:outline-none" type="checkbox" name="terms" id="serviceTerms">
+                            <label class="-mt-1 text-sm sm:mt-0" for="serviceTerms">
+                                <span>Remember Me</span>
+                            </label>
+                        </div>
+                        <div>
+                            <button
+                                class="w-full p-2 text-sm font-semibold text-center text-white transition duration-100 rounded-md md:text-lg font-nunito bg-gradient-to-r from-blue-600 to-blue-400 focus:outline-none focus:ring-2 focus:ring-blue-300 hover:shadow-lg">Sign
+                                In</button>
+                        </div>
+                    </div>
+                </form>
+                <div class="mt-4">
+                    <button
+                        class="w-full p-2 text-sm font-normal text-center transition duration-100 bg-white rounded-md md:text-lg font-roboto focus:outline-none hover:shadow-lg">
+                        <span class="flex items-center justify-center gap-4">
+                            <img class="w-5 h-5 text-xs"
+                                src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Google_%22G%22_Logo.svg/800px-Google_%22G%22_Logo.svg.png"
+                                alt="google_logo">
+                            <span>Continue with Google</span>
+                        </span>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
